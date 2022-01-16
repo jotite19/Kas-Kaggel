@@ -26,15 +26,15 @@ Durant aquesta pràctica hem realitzat diferents experiments.
 ### Preprocessat
 Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han afectat als resultats?
 ### Model
+
 | Model | Mètrica |
-| -- | -- | -- | -- |
+| -- | -- |
 | LinearRegresion | 50% |
 | LogisticRegresion | 85% |
 | LogisticRegrsion(PCA) | 85% |
 | BayesClass(I) | 67% |
 | BayesClass(II) | 77% |
 | BayesClass(III) | 87% |
-| -- | -- | -- | -- |
 
 ## Conclusions
 El model mes eficaç que he conseguit es la Clasificacio de bayes que prediu la positivitat de l'article del joc mitjançant el tag line de aquest. Amb aquest model hi pot competir el regresor logistic que conseguia una acuracy de 85% nomes un 2% menys que el clasificador.
